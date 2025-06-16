@@ -25,13 +25,20 @@ pip install rich colorama requests psutil
 
 Başlatmak için:
 
-```bash python arivlogbasic.py```
+```bash
+ python arivlogbasic.py
+```
 
 Sunucu çalıştıktan sonra aşağıdaki komutla dış dünyaya açabilirsiniz:
 
-```bash cloudflared tunnel --url http://localhost:8000```
+```bash 
+cloudflared tunnel --url http://localhost:8000
+```
 
-> Eğer cloudflared yüklü değilse, Termux veya Linux ortamında şu komutla yükleyebilirsiniz: ```bash pkg install cloudflared```
+> Eğer cloudflared yüklü değilse, Termux veya Linux ortamında şu komutla yükleyebilirsiniz:
+>  ```bash
+>  pkg install cloudflared
+> ```
 
 
 📌 Kullanım Notları
